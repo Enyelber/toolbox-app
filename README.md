@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# App Toolbox
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto fronted consiste en enviar una cadena de caracteres a una API y recibir la respuesta de la misma determinando si la cadena enviada es un palindrome
 
-## Available Scripts
+## Comenzando 🚀
 
-In the project directory, you can run:
+_Clona o Descarga el repositorio, instala las dependencias necesarias para el proyecto._
 
-### `yarn start`
+```
+  npm install or yarn install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Ejecuta la aplicación en modo de desarrollo.\
+abre [http://localhost:3000](http://localhost:3000) para verlo en el navegador.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Ejecutando el Proyecto 🔧
 
-### `yarn test`
+_Una vez intaladas todas las dependencias se tiene los siguientes comandos para correr el proyecto_
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+_Modo DESARROLLO_
 
-### `yarn build`
+```
+  yarn start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_Modo Produccion_
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+  yarn build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Ejecutando las pruebas ⚙️
 
-### `yarn eject`
+Se ha realizado unas pruebas utilizando Jest
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Por favor corra el siguiente comando:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+  yarn test
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Analice las pruebas 🔩
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+_Las pruebas realizadas fueron_
 
-## Learn More
+```
+* Renderizar la aplicacion y obtener un elemento del DOM
+* Rederizar un Componente
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Construido con 🛠️
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+_Herramientas librerias y frameworks utilizadas para crear el proyecto_
 
-### Code Splitting
+- [Node](https://nodejs.org/en/) - Entorno de ejecución de JavaScript back-end
+- [Yarn](https://yarnpkg.com//) - node package manager
+- [Reactjs](https://reactjs.org/) - JavaScript library
+- [Jest](https://jestjs.io/) - JavaScript test framework
+- [Visual Studio Code](https://rometools.github.io/rome/) - Code editor
+- [Git](https://git-scm.com/) - version control system
+- [GitHub](https://github/) - version control system Remote
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contribuyendo 🖇️
 
-### Analyzing the Bundle Size
+Por favor lee el [CONTRIBUTING.md](https://gist.github.com/enyelber/) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Autor ✒️
 
-### Making a Progressive Web App
+- **Enyelber Altube** - _Full Stack Developher_ - [enyelber](https://github.com/enyelber)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Gratitud 🎁
 
-### Advanced Configuration
+- a Toolbox por permitir realizar esta prueba 📢
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⌨️ por [enyelber](https://github.com/enyelber) 😊
